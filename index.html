@@ -18,6 +18,8 @@
 	<title>Naranja - Donaciones</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
 	<!--
 			CSS
 			============================================= -->
@@ -301,35 +303,35 @@
 							Podrás seguir en redes sociales y en mensajes directos como con tu donación, estos niños y jóvenes progresa con el acceso de internet. 
 						</p>
 					</div>
-				</div>
+				</div>|
 				<div class="col-lg-6 contact-right">
 					<form class="booking-form" id="myForm" action="donate.php">
 						<div class="row">
-							<div class="col-lg-12 d-flex flex-column">
+							<!-- <div class="col-lg-12 d-flex flex-column">
 								<select name="type" class="app-select form-control" required>
 									<option data-display="Project you want to donate">Proyecto al cual quieres donar
 									</option>
 									<option value="1">Naranja Internet</option>
 								</select>
-							</div>
+							</div> -->
 							<div class="col-lg-6 d-flex flex-column">
-								<input name="fname" placeholder="Enter your name" onfocus="this.placeholder = ''"
-									onblur="this.placeholder = 'Enter your name'" class="form-control mt-20" required=""
+								<input name="fname" placeholder="Ingrese su nombre" onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'INgrese su nombre'" class="form-control mt-20" required=""
 									type="text" required>
 							</div>
 							<div class="col-lg-6 d-flex flex-column">
-								<input name="email" placeholder="Enter email address"
+								<input name="email" placeholder="Ingrese su correo"
 									pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'"
+									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingrese su correo'"
 									class="form-control mt-20" required="" type="email">
 							</div>
 							<div class="col-lg-12 d-flex flex-column">
-								<input name="amound" placeholder="Donation amount (USD)" onfocus="this.placeholder = ''"
-									onblur="this.placeholder = 'Donation amount (USD)'" class="form-control mt-20"
+								<input name="amound" placeholder="Valor de la donación" onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Valor de la donación'" class="form-control mt-20"
 									required="" type="text">
 
-								<textarea class="form-control mt-20" name="message" placeholder="Messege"
-									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'"
+								<textarea class="form-control mt-20" name="message" placeholder="Mensaje"
+									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensaje'"
 									required=""></textarea>
 							</div>
 
