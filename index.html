@@ -235,7 +235,8 @@
 				<div class="col-lg-3 col-md-3 vol-wrap">
 					<div class="single-vol">
 						<div class="content">
-							<a href="https://www.eltiempo.com/tecnosfera/novedades-tecnologia/choco-empresa-ofrece-fibra-aerea-para-solucionar-conectividad-de-la-region-740824" target="_blank">
+							<a href="https://www.eltiempo.com/tecnosfera/novedades-tecnologia/choco-empresa-ofrece-fibra-aerea-para-solucionar-conectividad-de-la-region-740824"
+								target="_blank">
 								<div class="content-overlay"></div>
 								<img class="content-image img-fluid d-block mx-auto" src="img/v2.png" alt="">
 								<div class="content-details fadeIn-bottom">
@@ -251,13 +252,15 @@
 				<div class="col-lg-3 col-md-3 vol-wrap">
 					<div class="single-vol">
 						<div class="content">
-							<a href="https://twitter.com/SergioValdesB/status/1641978787725447168?t=J95UXqbEvLbdTmDjS6oaAw&s=08" target="_blank">
+							<a href="https://twitter.com/SergioValdesB/status/1641978787725447168?t=J95UXqbEvLbdTmDjS6oaAw&s=08"
+								target="_blank">
 								<div class="content-overlay"></div>
 								<img class="content-image img-fluid d-block mx-auto" src="img/v3.png" alt="">
 								<div class="content-details fadeIn-bottom">
 									<h4>X</h4>
 									<p>
-										¡Llevar #Internet a la gente es hacer país desde las regiones. Trabajamos por conectar a #Colombia!
+										¡Llevar #Internet a la gente es hacer país desde las regiones. Trabajamos por
+										conectar a #Colombia!
 									</p>
 								</div>
 							</a>
@@ -278,7 +281,8 @@
 				<div class="col-lg-6 col-sm-12 pb-80 header-text">
 					<h1>Dona Ahora</h1>
 					<p>
-						Ayudamos a conectar al Chocó, y llevar internet a las personas más necesidades. Tu donación en verdad puede ayudar a transformar la vida de las personas que aún no tienen Internet.
+						Ayudamos a conectar al Chocó, y llevar internet a las personas más necesidades. Tu donación en
+						verdad puede ayudar a transformar la vida de las personas que aún no tienen Internet.
 					</p>
 				</div>
 			</div>
@@ -288,36 +292,40 @@
 					<div class="single-info">
 						<h4>Regiones olvidadas</h4>
 						<p>
-							Chocó es las regiones de Colombia con menos acceso a internet. Menos del 5% de los hogares tienen acceso a Internet.
+							Chocó es las regiones de Colombia con menos acceso a internet. Menos del 5% de los hogares
+							tienen acceso a Internet.
 						</p>
 					</div>
 					<div class="single-info">
 						<h4>Todo arranca con tu donación</h4>
 						<p>
-							Al tener Internet, los hogares podrán acceder a las oportunidades que existen a nivel de educación, oportunidades laborales y la necesidad básica de comunicación con el mundo exterior.
+							Al tener Internet, los hogares podrán acceder a las oportunidades que existen a nivel de
+							educación, oportunidades laborales y la necesidad básica de comunicación con el mundo
+							exterior.
 						</p>
 					</div>
 					<div class="single-info">
 						<h4>Mira cómo crecen con tu ayuda</h4>
 						<p>
-							Podrás seguir en redes sociales y en mensajes directos como con tu donación, estos niños y jóvenes progresa con el acceso de internet. 
+							Podrás seguir en redes sociales y en mensajes directos como con tu donación, estos niños y
+							jóvenes progresa con el acceso de internet.
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-6 contact-right">
-					<form class="booking-form" id="myForm" action="donate.php">
+					<form class="booking-form" id="myForm" action="donate.php" method="post">
 						<div class="row">
-							 <div class="col-lg-12 d-flex flex-column">
-								<!-- <select name="type" class="app-select form-control" required>
+							<!-- <div class="col-lg-12 d-flex flex-column">
+								<select name="type" class="app-select form-control" required>
 									<option data-display="Project you want to donate">Proyecto al cual quieres donar
 									</option>
 									<option value="1">Naranja Internet</option>
-								</select> -->
-							</div> 
+								</select>
+							</div> -->
 							<div class="col-lg-6 d-flex flex-column">
 								<input name="fname" placeholder="Ingrese su nombre" onfocus="this.placeholder = ''"
-									onblur="this.placeholder = 'Ingrese su nombre'" class="form-control mt-20" required=""
-									type="text" required>
+									onblur="this.placeholder = 'Ingrese su nombre'" class="form-control mt-20"
+									required="" type="text" required>
 							</div>
 							<div class="col-lg-6 d-flex flex-column">
 								<input name="email" placeholder="Ingrese su correo"
@@ -326,9 +334,9 @@
 									class="form-control mt-20" required="" type="email">
 							</div>
 							<div class="col-lg-12 d-flex flex-column">
-								<input name="amound" placeholder="Valor de la donación" onfocus="this.placeholder = ''"
+								<input name="amount" placeholder="Valor de la donación" onfocus="this.placeholder = ''"
 									onblur="this.placeholder = 'Valor de la donación'" class="form-control mt-20"
-									required="" type="text">
+									required="" type="text" pattern="[0-9]+" title="Por favor, ingresa solo números">
 
 								<textarea class="form-control mt-20" name="message" placeholder="Mensaje"
 									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensaje'"
@@ -336,10 +344,10 @@
 							</div>
 
 							<div class="col-lg-12 d-flex justify-content-end send-btn">
-								<a href="https://link.mercadopago.com.co/donacionesnaranja" target="_blank" class="submit-btn primary-btn mt-20 text-uppercase">
+								<button type="submit" class="submit-btn primary-btn mt-20 text-uppercase">
 									Dona ahora
 									<span class="lnr lnr-arrow-right"></span>
-								</a>
+								</button>
 							</div>
 							<div class="alert-msg"></div>
 						</div>
@@ -366,12 +374,29 @@
 				</ul>
 				<div class="footer-social">
 					<a href="https://www.facebook.com/NaranjaInternet"><i class="fa fa-facebook"></i></a>
-					<a href="https://twitter.com/naranjainternet?t=4ejg6zqvy-8u-QLzoSCdsw&s=09"><i class="fa fa-twitter"></i></a>
+					<a href="https://twitter.com/naranjainternet?t=4ejg6zqvy-8u-QLzoSCdsw&s=09"><i
+							class="fa fa-twitter"></i></a>
 				</div>
 			</div>
 		</div>
 	</footer>
 	<!-- End footer Area -->
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			// Obtiene el formulario
+			var form = document.getElementById("myForm");
+
+			// Agrega un evento de escucha para el evento submit del formulario
+			form.addEventListener("submit", function (event) {
+				// Detiene el envío del formulario por defecto
+				event.preventDefault();
+
+				// Realiza la redirección a la pasarela de pago en una nueva ventana
+				window.open("https://link.mercadopago.com.co/donacionesnaranja", "_blank");
+			});
+		});
+	</script>
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
